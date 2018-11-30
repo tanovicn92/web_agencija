@@ -25,6 +25,7 @@ nav a {
 nav a:hover {
   backgroung-color: #1B43C9;
 }
+<<<<<<< HEAD
 
   .okvir div {
       display: flex;
@@ -38,3 +39,8 @@ nav a:hover {
           border-radius: 50%;
           border: 2px;
       }
+=======
+form {
+  margin-top: 200px;
+}
+>>>>>>> 35a4652d9805d0de5c4ec6ce8f659c711ab81a8b
