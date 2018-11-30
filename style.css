@@ -3,7 +3,7 @@
 }
 main {
   flex: 1;
-  padding: 200px;
+  padding-top: 200px;
 }
 body {
 margin: 0;
@@ -91,6 +91,6 @@ footer {
   }
   main {
   flex: 1;
-  padding: 50px;
+  padding-top: 50px;
 }
 }
