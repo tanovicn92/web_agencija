@@ -49,5 +49,7 @@ nav a:hover {
 
 form {
   background-color: purple;
+  border: 2px solid black;
   color: #fff;
+  width: 87%;
 }
