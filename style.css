@@ -40,11 +40,17 @@ nav a:hover {
         }
 
 
-  .okvir div {
+  .okvir {
       display: flex;
       justify-content: space-evenly;
       flex-wrap: wrap;
     }
+ .okvir div { 
+   width: 200px;
+    height: 200px;
+    background: darkkhaki;
+}
+
   .cirkle {
           width: 200px;
           height: 200px;
