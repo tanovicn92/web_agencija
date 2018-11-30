@@ -52,7 +52,16 @@ form {
   color: #fff;
   width: 87%;
 }
-
+.container {
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: justify;
+}
+footer {
+  footer {
+    overflow: auto;
+    background-color: transparent;
+}
 @media(min-width: 800px) {
   nav {
     display: inline;
