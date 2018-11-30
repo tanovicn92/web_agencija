@@ -1,12 +1,17 @@
 *{
   box-sizing: border-box;
 }
-
+main {
+  flex: 1;
+  padding: 200px;
+}
 body {
 margin: 0;
 font-family: Arial, Helvetica, sans-serif;
 background-color: #1B43C9;
 color: #291000;
+  display: flex;
+  flex-direction: column;
   }
 
 img {
@@ -55,7 +60,16 @@ form {
   color: #fff;
   width: 87%;
 }
-
+.container {
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: justify;
+}
+footer {
+  footer {
+    overflow: auto;
+    background-color: transparent;
+}
 @media(min-width: 800px) {
   nav {
     text-align: right;
@@ -69,5 +83,12 @@ form {
     border-left: 2px solid #291000;
     border-bottom: 0px;
   }
+<<<<<<< HEAD
 
+=======
+  main {
+  flex: 1;
+  padding: 50px;
+}
+>>>>>>> b9043827b485d6141db09d88fc013eb9631b2d94
 }
