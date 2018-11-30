@@ -1,3 +1,10 @@
+* body {
+margin: 0;
+font-family: Arial, Helvetica, sans-serif;
+  }
+  img {
+      width: 100%;
+  }
 nav {
     margin: 0;
     padding: 0;
@@ -18,3 +25,16 @@ nav a {
 nav a:hover {
   backgroung-color: #1B43C9;
 }
+
+  .okvir {
+      display: flex;
+      justify-content: space-evenly;
+      flex-wrap: wrap;
+    }
+  .cirkle {
+          width: 200px;
+          height: 200px;
+          background: lightgray;
+          border-radius: 50%;
+          border: 2px;
+      }
