@@ -75,6 +75,7 @@ form {
 footer {
     overflow: auto;
     background-color: transparent;
+    position:fixed;
 }
 
 @media(min-width: 800px) {
@@ -94,5 +95,6 @@ footer {
     main {
         flex: 1;
         padding-top: 50px;
+        
     }
 }
