@@ -87,7 +87,7 @@ footer {
 
 }
 
-@media(min-width: 800px) {
+@media(min-width: 450px) {
     nav {
         display: inline;
         text-align: right;
