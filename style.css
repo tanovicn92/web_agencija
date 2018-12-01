@@ -56,6 +56,14 @@ nav a:hover {
     height: 200px;
 }
 
+
+  .okvir {
+      display: flex;
+      justify-content: space-evenly;
+      flex-wrap: wrap;
+    }
+ .okvir div {
+   width: 200px;
 .cirkle {
     width: 200px;
     height: 200px;
@@ -73,9 +81,10 @@ form {
 }
 
 footer {
+
     overflow: auto;
     background-color: transparent;
-  
+
 }
 
 @media(min-width: 800px) {
