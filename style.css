@@ -1,22 +1,25 @@
-*{
-  box-sizing: border-box;
+* {
+    box-sizing: border-box;
 }
+
 main {
-  flex: 1;
-  padding-top: 200px;
+    flex: 1;
+    padding-top: 200px;
 }
+
 body {
-margin: 0;
-font-family: Arial, Helvetica, sans-serif;
-background-color: #1B43C9;
-color: #291000;
-  display: flex;
-  flex-direction: column;
-  }
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #1B43C9;
+    color: #291000;
+    display: flex;
+    flex-direction: column;
+}
 
 img {
-      width: 100%;
-  }
+    width: 100%;
+}
+
 nav {
     margin: 0;
     padding: 0;
@@ -25,73 +28,68 @@ nav {
     top: 0;
     width: 100%;
     overflow: auto;
-    }
+}
+
 nav a {
-  color: #291000;
-  display: block;
-  text-decoration: none;
-  text-transform: uppercase;
-  padding: 8px;
-  border-bottom: 1px solid #291000;
+    color: #291000;
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 8px;
+    border-bottom: 1px solid #291000;
 }
 
 nav a:hover {
-        background-color: #1B43C9;
-        }
-
-
-  .okvir {
-      display: flex;
-      justify-content: space-evenly;
-      flex-wrap: wrap;
-    }
- .okvir div { 
-   width: 200px;
-    height: 200px;
-    background: darkkhaki;
+    background-color: #1B43C9;
 }
 
-  .cirkle {
-          width: 200px;
-          height: 200px;
-          background: lightgray;
-          border-radius: 50%;
-          border: 2px;
-      }
+.okvir {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.okvir div {
+    width: 200px;
+    height: 200px;
+}
+
+.cirkle {
+    width: 200px;
+    height: 200px;
+    background: lightgray;
+    border-radius: 50%;
+    border: 2px;
+}
 
 form {
+    background-color: purple;
+    border: 2px solid black;
+    color: #fff;
+    width: 87%;
+}
 
-  background-color: purple;
-  border: 2px solid black;
-  color: #fff;
-  width: 87%;
-}
-.container {
-    padding-left: 10%;
-    padding-right: 10%;
-    text-align: justify;
-}
 footer {
-  footer {
     overflow: auto;
     background-color: transparent;
 }
+
 @media(min-width: 800px) {
-  nav {
-    display: inline;
-    text-align: right;
-    padding-top: 15px;
-    border-right: 2px solid #291000;
-  }
-  nav a {
-    display: inline;
-    align: right;
-    padding: 0px;
-    border-left: 2px solid #291000;
-    border-bottom: 0px;
-  }
-  main {
-  flex: 1;
-  padding-top: 50px;
-}
+    nav {
+        display: inline;
+        text-align: right;
+        padding-top: 15px;
+        border-right: 2px solid #291000;
+    }
+    nav a {
+        display: inline;
+        align: right;
+        padding: 0px;
+        border-left: 2px solid #291000;
+        border-bottom: 0px;
+    }
+    main {
+        flex: 1;
+        padding-top: 50px;
+    }
 }
