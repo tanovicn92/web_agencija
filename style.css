@@ -12,10 +12,10 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #1B43C9;
     color: #291000;
-    display: fixed;
-    /* min-height: 100vh; ovo ne sklanjati da bi footer bio uvek na dnu*/
+    display: flex;
+    min-height: 100vh; /*ovo ne sklanjati da bi footer bio uvek na dnu*/
     flex-direction: column;
-    bottom:0;
+
 }
 
 img {
@@ -75,7 +75,7 @@ form {
 footer {
     overflow: auto;
     background-color: transparent;
-    position:fixed;
+  
 }
 
 @media(min-width: 800px) {
@@ -95,6 +95,6 @@ footer {
     main {
         flex: 1;
         padding-top: 50px;
-        
+
     }
 }
